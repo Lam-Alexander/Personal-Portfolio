@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(#2a2438, #393e46);
+
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    display: flex;
+    font-size: larger;
+}
+
+header .logo {
+    color: #32ff6a;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: larger;
+    padding-top: 75px;
+    padding-left: 3%;
+    position: fixed;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    padding-top: 75px;
+    padding-left: 37%;
+}
+
+header nav ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 6px 15px;
+}
+
+header nav ul li a:hover,
+header nav ul li a.active {
+    background-color: #32ff6a;
+    color: black;
+    border-radius: 20px;
+}
+
+.title {
+    position: absolute;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    margin-top: 25%;
+    text-align: center;
+    position: fixed;
+}
+
+footer p {
+    color: #fff;
+    font-size: 20px;
+
+}
+
+footer div {
+    text-align: center;
+    width: 15%;
+    border-radius: 10px;
+    margin: auto;
+    padding-bottom: 75px;
+
+}
+
+.Copyright {
+    font-size: medium;
+}
+
+
+.social-links {
+    display: inline;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30%;
+    text-align: center;
+}
+
+
+
+main div ul li {
+    display: inline;
+    padding: 100px;
+}
+
+
+
+main div ul li a {
+    color: black;
+    background-color: #fff;
+    text-decoration: none;
+    font-size: larger;
+    border-radius: 15px;
+    padding: 6px 10px;
+
+}
+
+main div ul li a:hover {
+    background-color: #32ff6a;
+}
